@@ -2,6 +2,8 @@
 
 This record must be completed by a person who did **not** write the README, preferably on another computer. Automated tests and an AI browser session cannot substitute for that person's record. Do not mark success before they follow these steps.
 
+A separate AI-assisted fresh GitHub checkout of core commit `c799b0c` already passed corpus/config hashes, Streamlit startup, and no-key search on the same development computer using the existing Python environment. See `evidence/reproduction_check.json`. That record does not complete this independent first-use check. Live validation is deferred by the user.
+
 | Field | Actual value |
 |---|---|
 | Tester name / role | [PENDING] |

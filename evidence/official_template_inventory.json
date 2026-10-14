@@ -1,0 +1,303 @@
+{
+  "reference_filename": "AILT9019_Midterm_Status_Sheet_Template.docx",
+  "reference_sha256": "5f57af798fc8f665127840a64da7c102cd7b085bbf6d406ac56293574b369b3e",
+  "reference_pages": 1,
+  "reference_page_count_verified_by": "Genuine Microsoft Word PDF export; complete page visually inspected",
+  "render_method": "Canonical render_docx.py failed because bundled LibreOffice is absent; isolated native Word export used as actual DOCX rendering fallback, not PDF reconstruction.",
+  "canonical_render_diagnostic": "tmp/official_template_renderer_diagnostic.log",
+  "reference_render": "tmp/pdfs/official_template_reference.pdf",
+  "reference_image": "tmp/pdfs/official_template_reference_1.png",
+  "final_render_status": "verified",
+  "section_count": 1,
+  "section_xml": [
+    "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:mo=\"http://schemas.microsoft.com/office/mac/office/2008/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:mv=\"urn:schemas-microsoft-com:mac:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidRPr=\"0006063C\" w:rsidR=\"00FC693F\" w:rsidSect=\"00034616\"><w:pgSz w:w=\"12240\" w:h=\"15840\" w:orient=\"portrait\"/><w:pgMar w:top=\"1037\" w:right=\"1123\" w:bottom=\"965\" w:left=\"1123\" w:header=\"720\" w:footer=\"720\" w:gutter=\"0\"/><w:cols w:space=\"720\"/><w:docGrid w:linePitch=\"360\"/></w:sectPr>"
+  ],
+  "headings": [
+    "AILT9019 Midterm Status Sheet",
+    "Current progress",
+    "Next two weeks",
+    "Contribution and scope"
+  ],
+  "table_rows": [
+    2,
+    4,
+    4,
+    6
+  ],
+  "style_xml": {
+    "Normal": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" w:type=\"paragraph\" w:styleId=\"Normal\" w:default=\"1\"><w:name w:val=\"Normal\"/><w:qFormat/><w:rsid w:val=\"00FC693F\"/><w:pPr><w:spacing w:after=\"100\" w:line=\"259\" w:lineRule=\"auto\"/></w:pPr><w:rPr><w:rFonts w:ascii=\"Aptos\" w:hAnsi=\"Aptos\"/><w:color w:val=\"19202A\"/><w:sz w:val=\"19\"/></w:rPr></w:style>",
+    "Title": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" w:type=\"paragraph\" w:styleId=\"Title\"><w:name w:val=\"Title\"/><w:basedOn w:val=\"Normal\"/><w:next w:val=\"Normal\"/><w:link w:val=\"TitleChar\"/><w:uiPriority w:val=\"10\"/><w:qFormat/><w:rsid w:val=\"00FC693F\"/><w:pPr><w:spacing w:after=\"120\" w:line=\"240\" w:lineRule=\"auto\"/><w:contextualSpacing/></w:pPr><w:rPr><w:rFonts w:ascii=\"Aptos Display\" w:hAnsi=\"Aptos Display\" w:asciiTheme=\"majorHAnsi\" w:hAnsiTheme=\"majorHAnsi\" w:eastAsiaTheme=\"majorEastAsia\" w:cstheme=\"majorBidi\"/><w:b/><w:color w:val=\"000000\"/><w:spacing w:val=\"5\"/><w:kern w:val=\"28\"/><w:sz w:val=\"36\"/><w:szCs w:val=\"52\"/></w:rPr></w:style>",
+    "Heading1": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" w:type=\"paragraph\" w:styleId=\"Heading1\"><w:name w:val=\"heading 1\"/><w:basedOn w:val=\"Normal\"/><w:next w:val=\"Normal\"/><w:link w:val=\"Heading1Char\"/><w:uiPriority w:val=\"9\"/><w:qFormat/><w:rsid w:val=\"00FC693F\"/><w:pPr><w:keepNext/><w:keepLines/><w:spacing w:before=\"160\" w:after=\"60\"/><w:outlineLvl w:val=\"0\"/></w:pPr><w:rPr><w:rFonts w:ascii=\"Aptos\" w:hAnsi=\"Aptos\" w:asciiTheme=\"majorHAnsi\" w:hAnsiTheme=\"majorHAnsi\" w:eastAsiaTheme=\"majorEastAsia\" w:cstheme=\"majorBidi\"/><w:b/><w:bCs/><w:color w:val=\"173753\"/><w:sz w:val=\"21\"/><w:szCs w:val=\"28\"/></w:rPr></w:style>",
+    "TableGrid": "<w:style xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" w:type=\"table\" w:styleId=\"TableGrid\"><w:name w:val=\"Table Grid\"/><w:basedOn w:val=\"TableNormal\"/><w:uiPriority w:val=\"59\"/><w:rsid w:val=\"00FC693F\"/><w:pPr><w:spacing w:after=\"0\" w:line=\"240\" w:lineRule=\"auto\"/></w:pPr><w:tblPr><w:tblInd w:w=\"0\" w:type=\"dxa\"/><w:tblBorders><w:top w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:left w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:bottom w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:right w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:insideH w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/><w:insideV w:val=\"single\" w:color=\"auto\" w:sz=\"4\" w:space=\"0\"/></w:tblBorders><w:tblCellMar><w:top w:w=\"0\" w:type=\"dxa\"/><w:left w:w=\"108\" w:type=\"dxa\"/><w:bottom w:w=\"0\" w:type=\"dxa\"/><w:right w:w=\"108\" w:type=\"dxa\"/></w:tblCellMar></w:tblPr></w:style>"
+  },
+  "feature_counts": {
+    "content_controls": 0,
+    "fields": 0,
+    "drawings": 0,
+    "bookmarks": 0
+  },
+  "parts": [
+    {
+      "path": "[Content_Types].xml",
+      "bytes": 1738,
+      "sha256": "66c84fb7a6aa3c4ead49f895e4a7044df1fb57de1ed76d09b2686e91f5bed5b4",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "_rels/.rels",
+      "bytes": 734,
+      "sha256": "a9ae57efe9186f07d48303bcac5d54c7e359bf3f503939c03ad2954e5c59a5c4",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "docProps/core.xml",
+      "bytes": 705,
+      "sha256": "8bc7ff95839e64c1e7a7f014f7f9e74e04ebad18aeb599ed7b32ef9883b8f19b",
+      "policy": "clear_creator_and_lastModifiedBy_only"
+    },
+    {
+      "path": "docProps/app.xml",
+      "bytes": 713,
+      "sha256": "83ef5ed935c237abb0935b399854c075330c4bb282eaaa16f23cbfc428abd2f9",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/document.xml",
+      "bytes": 17071,
+      "sha256": "f162ac92e6cedb8b999d314ae685bf06ecc96da1f0a0355d29032ef92a22d29d",
+      "policy": "slot_text_only"
+    },
+    {
+      "path": "word/_rels/document.xml.rels",
+      "bytes": 1227,
+      "sha256": "1e7f0eb144a98e199249314f61ff32a8de2a27e56d8e9ee6b524e1c6b235d377",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/styles.xml",
+      "bytes": 349620,
+      "sha256": "7541384acfbeb9d6a0802286640a8b24ab0bd51c65121058e798703899354738",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/stylesWithEffects.xml",
+      "bytes": 438131,
+      "sha256": "463ae0928cf0d84775dbf8cf18d6c3029f6707c81bf590f6d6dd8757a5e93f15",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/settings.xml",
+      "bytes": 2836,
+      "sha256": "6c1ce32dfec88f905230c660d6b606b7fcb49baee8374bfb99759a49d1e18319",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/webSettings.xml",
+      "bytes": 438,
+      "sha256": "349d36de7434d09f86987ff671d8814964a0588c1e630c06e562cda7e75e9f95",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/fontTable.xml",
+      "bytes": 2595,
+      "sha256": "b67f1bf5eaf99fdbca0627b7e5b765371f064dc40d5cbe860d5fac13121e57c3",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/theme/theme1.xml",
+      "bytes": 7779,
+      "sha256": "5454edd1ea91a968ac75ff23702524c1a2ae907573c5caed0e9cade2a56ff752",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "customXml/item1.xml",
+      "bytes": 262,
+      "sha256": "a86086ffc5d8e83ebd6c71a55d1d2efaa31b137977f5f3a752366e1023612144",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "customXml/_rels/item1.xml.rels",
+      "bytes": 295,
+      "sha256": "1ca6c9a64edcebe24ee703a54403611b322d96da33371779e742d2d3f7ed7a6c",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "customXml/itemProps1.xml",
+      "bytes": 354,
+      "sha256": "c542307b13ec29a8b546217bb37936ab4822e044b265d2952985ec3d6afed24e",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "word/numbering.xml",
+      "bytes": 5513,
+      "sha256": "16f2dbb1ad4ecc4c7b74c8f036978720857c698cf91fd532feb3bc381b0898c3",
+      "policy": "preserve_bytes"
+    },
+    {
+      "path": "docProps/thumbnail.jpeg",
+      "bytes": 8324,
+      "sha256": "96367138dc44ce09bf2c8f0f8e49348a1478d2c5c0af69bbc2bbc38b63cdcead",
+      "policy": "preserve_bytes"
+    }
+  ],
+  "slots": [
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[1]/w:tr[2]/w:tc[1]/w:p/w:r/w:t",
+      "original": "[Team ID / names]",
+      "replacement": "DRAFT: team ID and members pending"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[1]/w:tr[2]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Project title]",
+      "replacement": "Economics with Evidence"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[1]/w:tr[2]/w:tc[3]/w:p/w:r/w:t",
+      "original": "[Links or Moodle item names]",
+      "replacement": "https://github.com/jovantsoi633/AILT9010-test; evidence/source_search_demo.mp4 (27.2 s)"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[2]/w:tr[2]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[One input → processing → output path that runs today; note any gap.]",
+      "replacement": "No-key Source search: 'market equilibrium' -> BM25 -> 3 original passages with expandable chapter, section, PDF page and attribution. 203 prose excerpts, Chapters 3/5. Real source-search recording: 27.2 s. AI Q&A implemented; real provider validation deferred by user, not demonstrated."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[2]/w:tr[3]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Test cases, result and date; link to log, commit or screenshot. State one known limitation.]",
+      "replacement": "15 Oct 2026: 53/53 AI-assisted automated tests. Annotated retrieval: required references 4/4; uncovered topics 3/3; synthetic privacy 3/3, 0 API calls. Logs: evidence/test_summary.json; evidence/development_offline.json. Fresh remote checkout c799b0c: same-machine search/hash checks passed; independent first use pending. Limits: prose only; graphs/formulas omitted; live answer quality unverified."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[2]/w:tr[4]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Blocker; steps already tried; owner; next action or fallback; target date. Write “none” if none.]",
+      "replacement": "Live API validation and member details deferred by user; no key used. Owner: [PENDING]. Next: verify names, actual contributions, course access and independent first use before 26 Oct. Final packaging waits for completed member entries and assigned owners."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[2]/w:tc[1]/w:p/w:r/w:t",
+      "original": "1. [Small outcome; how we will verify it]",
+      "replacement": "1. Validate real model rewrites and development answers; save outputs and human source review."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[2]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Name]",
+      "replacement": "[PENDING name]"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[2]/w:tc[3]/w:p/w:r/w:t",
+      "original": "[Date]",
+      "replacement": "30 Oct 2026"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[3]/w:tc[1]/w:p/w:r/w:t",
+      "original": "2. [Small outcome; how we will verify it]",
+      "replacement": "2. Freeze 21 formal questions, reference evidence, tau and baseline conditions (Gate 3)."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[3]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Name]",
+      "replacement": "[PENDING name]"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[3]/w:tc[3]/w:p/w:r/w:t",
+      "original": "[Date]",
+      "replacement": "6 Nov 2026"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[4]/w:tc[1]/w:p/w:r/w:t",
+      "original": "3. [Small outcome; how we will verify it]",
+      "replacement": "3. Start one formal system/baseline run; save outputs; assign two reviewers for 9-13 Nov."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[4]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Name]",
+      "replacement": "[PENDING name]"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[3]/w:tr[4]/w:tc[3]/w:p/w:r/w:t",
+      "original": "[Date]",
+      "replacement": "9 Nov 2026"
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[4]/w:tr[2]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Name: specific completed work, including non-coding work; or “none”]",
+      "replacement": "PENDING: user deferred names and verified work. Do not infer student contributions from AI assistance."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[4]/w:tr[3]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Name: specific completed work, including non-coding work; or “none”]",
+      "replacement": "PENDING: user deferred names and verified work. Do not infer student contributions from AI assistance."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[4]/w:tr[4]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Name: specific completed work, including non-coding work; or “none”]",
+      "replacement": "PENDING: user deferred names and verified work. Do not infer student contributions from AI assistance."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[4]/w:tr[5]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Name: specific completed work, including non-coding work; or “none”]",
+      "replacement": "PENDING: user deferred names and verified work. Do not infer student contributions from AI assistance."
+    },
+    {
+      "part": "word/document.xml",
+      "xpath": "/w:document/w:body/w:tbl[4]/w:tr[6]/w:tc[2]/w:p/w:r/w:t",
+      "original": "[Keep: essential path. Cut: deferred feature. Escalate: issue needing course team help, if any.]",
+      "replacement": "Keep: textbook search, guarded Q&A, citations, reproduction. Cut: comparison page, exercises, hosting. Escalate: [PENDING team review]."
+    }
+  ],
+  "facts": {
+    "passages": 203,
+    "tests_passed": 53,
+    "tests_run": 53,
+    "in_scope_passed": 4,
+    "in_scope_total": 4,
+    "uncovered_passed": 3,
+    "uncovered_total": 3,
+    "privacy_passed": 3,
+    "privacy_total": 3,
+    "video_seconds": 27.2,
+    "video": "evidence/source_search_demo.mp4",
+    "repository": "https://github.com/jovantsoi633/AILT9010-test",
+    "demonstrated_commit": "c799b0c1a0dacaa04f7f5188c3723c7db9b22cb1",
+    "same_machine_reproduction_pass": true,
+    "evidence_date": "15 Oct 2026"
+  },
+  "draft_reasons": [
+    "Real member names/contributions and milestone owners deferred by user",
+    "Live API validation deferred by user",
+    "Independent human/computer reproduction pending"
+  ],
+  "output_sha256": "655f790acc24d0d58f6922e94653fb191ac5daa17c374e97b676aff741018292",
+  "changed_parts": [
+    "docProps/core.xml",
+    "word/document.xml"
+  ],
+  "preserve_only_parts_identical": true,
+  "source_still_unchanged": true,
+  "output_creator_metadata_blank": true,
+  "output_relative": "output/docx/AILT9019_midterm_status_draft.docx",
+  "final_render_method": "Isolated native Microsoft Word COM export of the actual filled DOCX after canonical render_docx.py failed for missing bundled LibreOffice",
+  "final_render_pdf": "output/pdf/midterm_status_draft.pdf",
+  "final_render_image": "tmp/pdfs/official_status_draft_1.png",
+  "final_page_count": 1,
+  "final_pdf_sha256": "4792530db9d6f1a108e2fd644f2dd03594897c4f78cd40ac8c43d2c6e709c017",
+  "final_complete_page_visually_inspected": true,
+  "final_pdf_author_blank": true
+}

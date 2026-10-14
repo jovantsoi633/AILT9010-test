@@ -2,6 +2,8 @@
 
 Target: a readable **≤60-second MP4** showing the exact repository version to be submitted. The preferred recording demonstrates real AI Q&A; it requires a functioning model connection. A real source-search recording is useful backup evidence but does not establish live Q&A.
 
+**Current evidence:** `evidence/source_search_demo.mp4` is a genuine, captioned **27.2-second Source search** recording. It shows `market equilibrium`, BM25 results and expanded textbook evidence, with zero model requests. See `evidence/browser_check.json`. Live Q&A is deferred by the user; the live script below is for a later validated run.
+
 ## Before recording
 
 1. Run the app and validate the chosen question against the actual source. Test latency before recording.

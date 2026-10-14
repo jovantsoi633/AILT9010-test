@@ -1,6 +1,6 @@
 # Verified team contribution record
 
-**No personal contributions have been verified in this file.** Replace the placeholders with actual members and completed work. Do not allocate credit from a proposed role or from AI-authored artifacts alone.
+**Member names and contributions are deferred by the user; no personal contributions have been verified here.** Replace the placeholders when the team provides actual completed work. Do not allocate credit from a proposed role or from AI-authored artifacts alone. The official template's member rows do not establish the team's actual size.
 
 ## Responsibility assignments
 

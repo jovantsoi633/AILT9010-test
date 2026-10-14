@@ -2,11 +2,13 @@
 
 A local English-language study prototype for **demand and supply** and **elasticity**. Search the textbook without an API key, or connect your own DeepSeek API account to ask concept questions with inspectable textbook citations.
 
-This is coursework in development. Offline checks and live model checks are distinct: a passing mocked test does not establish live answer quality. Live validation, independent first-use reproduction, course-team repository access, and the official Moodle status sheet must be verified before the midterm submission. Project repository: [jovantsoi633/AILT9010-test](https://github.com/jovantsoi633/AILT9010-test).
+This is coursework in development. Offline checks and live model checks are distinct: a passing mocked test does not establish live answer quality. Live validation is deferred by the user. Independent first use, course-team access, and member entries in the official status sheet remain pending. Project repository: [jovantsoi633/AILT9010-test](https://github.com/jovantsoi633/AILT9010-test), default branch `codex/midterm-assistant`.
 
 ## Verified implementation snapshot
 
-The 15 October 2026 build includes 203 original textbook paragraphs and passed **53 automated checks**. Real-browser Source search was exercised with both chapters; [the captioned MP4](evidence/source_search_demo.mp4) demonstrates the demand/supply path without an API key. See [test results](evidence/test_summary.json), [offline development evidence](evidence/development_offline.json), and [browser evidence](evidence/browser_check.json). Annotated keyword retrieval retained the required reference in 4/4 development cases and filtered all passages in 3/3 uncovered cases. These small, tuned development results are **not live AI or final-set accuracy**. Live validation is deferred at the user's request; member details will be supplied later.
+The 15 October 2026 build includes 203 original textbook paragraphs and passed **53 AI-assisted automated checks**. Real-browser Source search was exercised with both chapters; [the captioned 27.2-second MP4](evidence/source_search_demo.mp4) demonstrates the demand/supply path without an API key. See [test results](evidence/test_summary.json), [offline development evidence](evidence/development_offline.json), and [browser evidence](evidence/browser_check.json). Annotated keyword retrieval retained the required reference in 4/4 development cases and filtered all passages in 3/3 uncovered cases. These small, tuned development results are **not live AI or final-set accuracy**. Live validation is deferred at the user's request; member details will be supplied later.
+
+A [fresh GitHub checkout](evidence/reproduction_check.json) of core commit `c799b0c` passed corpus/config hash checks, Streamlit startup, and no-key search on the same development computer using the existing Python environment. This verifies the remote code snapshot; it is not an independent student/computer first-use check.
 
 The user-supplied repository is currently **public**, which differs from the proposal's private-distribution plan. Review repository visibility and course access before the submission. Only the licensed prose corpus is included; the full PDF and local environment are not required to run the app.
 
@@ -102,7 +104,15 @@ The development set contains ten questions: four in-scope concepts, three econom
 
 Read [first-use checks](docs/first_use_check.md) for an independent reproduction record and [the submission checklist](docs/midterm_checklist.md) for remaining handoffs. No independent participant or contribution should be inferred from AI-authored files.
 
-To render the separate one-page **working draft** locally, install `requirements-dev.txt` and run `python scripts/render_status_draft.py`. It writes `output/pdf/midterm_status_draft.pdf` and explicitly retains unverified fields. It is not the official Moodle companion template.
+The official Moodle companion DOCX template has now been supplied and inspected. To create a local **working draft in that actual template**, install `requirements-dev.txt` and provide your own retained copy as input:
+
+```bash
+python scripts/fill_status_template.py --template /path/to/AILT9019_Midterm_Status_Sheet_Template.docx --output output/docx/AILT9019_midterm_status_draft.docx
+```
+
+The builder fills evidence-backed text, preserves template parts/styles/geometry, clears creator metadata, and records [the template inventory](evidence/official_template_inventory.json). It leaves members and owners visibly pending. The raw course template and generated personal working DOCX/PDF are not uploaded to this public repository. Export the filled DOCX using Word and verify the complete one-page PDF before final packaging; generating a DOCX alone does not verify layout. The local PDF path is `output/pdf/midterm_status_draft.pdf`. The canonical packaged renderer is unavailable on this Windows runtime because bundled LibreOffice is absent; the native Word fallback exports the actual DOCX, without reconstructing its content.
+
+The current local draft was exported from the filled official DOCX with native Word and verified as one complete, readable page. It remains a draft with pending members/owners; regenerating or editing it requires a new export and visual check.
 
 ## Prepare the midterm handoff
 
@@ -110,7 +120,7 @@ The deadline is **26 October 2026**, at the precise time shown in Moodle. The su
 
 Preparation documents:
 
-- [One-page status-sheet draft](docs/status_sheet_draft.md): working copy with explicit pending fields; transfer it to the actual companion template.
+- [Status-sheet draft content](docs/status_sheet_draft.md): evidence-backed text used in the supplied official template, with explicit pending member and owner fields.
 - [Recording script](docs/recording_script.md): real input → processing → output → expanded source; no simulated live answers.
 - [Contribution record](docs/team_contributions.md): each member records and verifies their own completed work.
 
