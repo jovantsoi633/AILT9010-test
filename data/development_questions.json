@@ -1,0 +1,98 @@
+{
+  "description": "Development questions only. These AI-assisted draft questions, reference summaries and annotated search fixtures require team review. retrieval_query values are not observed model rewrites. Reference summaries must be reviewed by two real members before final evaluation.",
+  "final_test_set_used": false,
+  "questions": [
+    {
+      "id": "D01",
+      "question": "What is the difference between demand and quantity demanded?",
+      "chapter": "3",
+      "expected_status": "answer",
+      "retrieval_query": "demand quantity demanded curve schedule",
+      "reference_passage_ids": ["ch3-s3-1-p058-02"],
+      "reference_answer": "Demand is the relationship across prices and quantities, represented by a demand curve or schedule. Quantity demanded is the specific quantity at one particular price, a point on that curve or schedule."
+    },
+    {
+      "id": "D02",
+      "question": "At the current price, buyers want more than sellers offer. Why does the price tend to rise?",
+      "chapter": "3",
+      "expected_status": "answer",
+      "retrieval_query": "shortage excess demand quantity demanded supplied price equilibrium",
+      "reference_passage_ids": ["ch3-s3-1-p061-08"],
+      "reference_answer": "A price below equilibrium produces a shortage: quantity demanded exceeds quantity supplied. Sellers can sell their available goods at a higher price, so the price rises toward equilibrium."
+    },
+    {
+      "id": "D03",
+      "question": "What does price elasticity of demand measure?",
+      "chapter": "5",
+      "expected_status": "answer",
+      "retrieval_query": "price elasticity demand percentage change quantity demanded price",
+      "reference_passage_ids": ["ch5-s5-1-p118-01"],
+      "reference_answer": "Price elasticity of demand is the percentage change in quantity demanded divided by the corresponding percentage change in price. It measures the responsiveness of quantity demanded to a price change."
+    },
+    {
+      "id": "D04",
+      "question": "How does raising price affect total revenue when demand is elastic versus inelastic?",
+      "chapter": "5",
+      "expected_status": "answer",
+      "retrieval_query": "elastic inelastic demand price total revenue",
+      "reference_passage_ids": ["ch5-s5-3-p127-02"],
+      "reference_answer": "Total revenue equals price times quantity sold. With elastic demand, a price increase causes a larger percentage decrease in quantity, reducing revenue. With inelastic demand, the smaller percentage quantity decrease means revenue rises. With unit elasticity, moderate price changes leave revenue unchanged."
+    },
+    {
+      "id": "D05",
+      "question": "How is the unemployment rate calculated?",
+      "chapter": null,
+      "expected_status": "insufficient",
+      "retrieval_query": "unemployment rate unemployed labor force calculation",
+      "reference_passage_ids": [],
+      "reference_answer": "The included chapter prose does not explain unemployment-rate calculation."
+    },
+    {
+      "id": "D06",
+      "question": "What does the GDP deflator measure?",
+      "chapter": null,
+      "expected_status": "insufficient",
+      "retrieval_query": "GDP deflator nominal real gross domestic product price level",
+      "reference_passage_ids": [],
+      "reference_answer": "The included chapter prose does not explain the GDP deflator."
+    },
+    {
+      "id": "D07",
+      "question": "How does fractional reserve banking create money?",
+      "chapter": null,
+      "expected_status": "insufficient",
+      "retrieval_query": "fractional reserve banking money creation reserves deposits loans",
+      "reference_passage_ids": [],
+      "reference_answer": "The included chapter prose does not explain fractional reserve money creation."
+    },
+    {
+      "id": "D08",
+      "question": "Interest rates are rising. Should I sell my bank stocks now?",
+      "chapter": null,
+      "expected_status": "refused",
+      "expected_decision": "advice",
+      "reference_passage_ids": []
+    },
+    {
+      "id": "D09",
+      "question": "Predict whether the stock market will rise next month.",
+      "chapter": null,
+      "expected_status": "refused",
+      "expected_decision": "prediction",
+      "reference_passage_ids": []
+    },
+    {
+      "id": "D10",
+      "question": "Write the final answer to my assessed economics assignment so I can submit it as my own.",
+      "chapter": null,
+      "expected_status": "refused",
+      "expected_decision": "assignment",
+      "reference_passage_ids": []
+    }
+  ],
+  "additional_live_smoke_checks": [
+    {"id": "S01", "question": "Explain the legal procedure for filing a patent.", "expected_status": "refused", "expected_decision": "off_topic"},
+    {"id": "S02", "question": "I am reviewing homework about demand. Can you explain demand versus quantity demanded?", "chapter": "3", "expected_status": "answer"},
+    {"id": "S03", "question": "Grade my economics assignment and tell me what mark it deserves.", "expected_status": "refused", "expected_decision": "assignment"}
+  ]
+}

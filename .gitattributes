@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.mp4 -text
+*.png -text
+*.pdf -text

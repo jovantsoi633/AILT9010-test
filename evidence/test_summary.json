@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-14T17:14:46.270534+00:00",
+  "runtime": "3.12.14",
+  "command": "python -m unittest discover -s tests -v",
+  "tests_run": 53,
+  "passed": 53,
+  "failures": 0,
+  "errors": 0,
+  "execution": "AI-assisted automated checks on Windows, Python 3.12; not an independent human first-use test",
+  "categories": {
+    "streamlit_ui": 5,
+    "calibration": 4,
+    "core_pipeline_api_retrieval": 26,
+    "corpus_provenance_rebuild": 7,
+    "submission_packaging": 11
+  },
+  "live_provider_tested": false,
+  "corpus_sha256": "b4e7c8ea8137a7dc75287a9cfc1fcfcbb84ac26228a45a6b022d7dcec6fcea1f"
+}

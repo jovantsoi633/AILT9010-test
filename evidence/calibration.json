@@ -1,0 +1,622 @@
+{
+  "created_at_utc": "2026-10-14T17:19:06.713507+00:00",
+  "mode": "annotated_keywords",
+  "note": "Annotated keyword calibration is provisional until actual model rewrites are checked. Reference misses before filtering cannot be repaired by lowering tau.",
+  "selection_rule": "Fewest question-level errors; then fewest in-scope misses; then lowest tau.",
+  "corpus_sha256": "b4e7c8ea8137a7dc75287a9cfc1fcfcbb84ac26228a45a6b022d7dcec6fcea1f",
+  "development_sha256": "619b4e6becd752e3643b55ff98439b2e0956983d98c78814c6eb8775512d71ff",
+  "selected": {
+    "tau": 8.090105861519982,
+    "total_errors": 0,
+    "in_scope_questions_missing_reference": 0,
+    "uncovered_questions_retaining_passages": 0,
+    "retrieval_failures_before_filter": 0
+  },
+  "candidates": [
+    {
+      "tau": 0.0,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 3,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 3.2890883941803706,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 3,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 3.289088394180371,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 3,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 3.492560287613283,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 3,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 3.4925602876132835,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 3,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 3.831138231467718,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 3,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 3.8311382314677185,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 4.545265880185412,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 4.545265880185413,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 4.898255034561438,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 4.898255034561439,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 5.351360212799193,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 5.351360212799194,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 6.719793251710462,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 2,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 6.719793251710463,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 1,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 6.738830130405863,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 1,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 6.738830130405864,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 1,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 7.922707694375305,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 1,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 7.922707694375306,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 1,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 8.09010586151998,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 1,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 8.090105861519982,
+      "total_errors": 0,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 9.822649459314556,
+      "total_errors": 0,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 9.822649459314558,
+      "total_errors": 0,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 10.153225050653052,
+      "total_errors": 0,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 10.153225050653054,
+      "total_errors": 0,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 11.63272106376463,
+      "total_errors": 0,
+      "in_scope_questions_missing_reference": 0,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 11.632721063764631,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 11.708053730269826,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 11.708053730269828,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 12.706282415012597,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 12.706282415012598,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.226002104663953,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.226002104663955,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.347566618026313,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.347566618026315,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.468857120990087,
+      "total_errors": 1,
+      "in_scope_questions_missing_reference": 1,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.468857120990089,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 2,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.772498499640317,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 2,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 13.772498499640319,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 2,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 14.034189000775708,
+      "total_errors": 2,
+      "in_scope_questions_missing_reference": 2,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 14.03418900077571,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 3,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 14.708400683162786,
+      "total_errors": 3,
+      "in_scope_questions_missing_reference": 3,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    },
+    {
+      "tau": 14.708400683162788,
+      "total_errors": 4,
+      "in_scope_questions_missing_reference": 4,
+      "uncovered_questions_retaining_passages": 0,
+      "retrieval_failures_before_filter": 0
+    }
+  ],
+  "cases": [
+    {
+      "id": "D01",
+      "query": "demand quantity demanded curve schedule",
+      "expected_status": "answer",
+      "references": [
+        "ch3-s3-1-p058-02"
+      ],
+      "top_three": [
+        {
+          "id": "ch3-s3-1-p058-02",
+          "score": 11.63272106376463,
+          "matched_terms": [
+            "curve",
+            "demand",
+            "demanded",
+            "quantity",
+            "schedule"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch3-s3-1-p057-04",
+          "score": 10.153225050653052,
+          "matched_terms": [
+            "curve",
+            "demand",
+            "demanded",
+            "quantity",
+            "schedule"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch3-s3-1-p059-01",
+          "score": 7.922707694375305,
+          "matched_terms": [
+            "curve",
+            "quantity",
+            "schedule"
+          ],
+          "retained": false
+        }
+      ],
+      "reference_retrieval_hit": true
+    },
+    {
+      "id": "D02",
+      "query": "shortage excess demand quantity demanded supplied price equilibrium",
+      "expected_status": "answer",
+      "references": [
+        "ch3-s3-1-p061-08"
+      ],
+      "top_three": [
+        {
+          "id": "ch3-s3-1-p061-08",
+          "score": 14.034189000775708,
+          "matched_terms": [
+            "demand",
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "shortage",
+            "supplied"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch3-s3-1-p061-05",
+          "score": 13.772498499640317,
+          "matched_terms": [
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "supplied"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch3-s3-4-p080-03",
+          "score": 12.706282415012597,
+          "matched_terms": [
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "supplied"
+          ],
+          "retained": true
+        }
+      ],
+      "reference_retrieval_hit": true
+    },
+    {
+      "id": "D03",
+      "query": "price elasticity demand percentage change quantity demanded price",
+      "expected_status": "answer",
+      "references": [
+        "ch5-s5-1-p118-01"
+      ],
+      "top_three": [
+        {
+          "id": "ch5-s5-1-p118-01",
+          "score": 14.708400683162786,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "price",
+            "quantity"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch5-s5-4-p133-02",
+          "score": 13.347566618026313,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "quantity"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch5-s5-1-p123-01",
+          "score": 13.226002104663953,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "price",
+            "quantity"
+          ],
+          "retained": true
+        }
+      ],
+      "reference_retrieval_hit": true
+    },
+    {
+      "id": "D04",
+      "query": "elastic inelastic demand price total revenue",
+      "expected_status": "answer",
+      "references": [
+        "ch5-s5-3-p127-02"
+      ],
+      "top_three": [
+        {
+          "id": "ch5-s5-3-p127-02",
+          "score": 13.468857120990087,
+          "matched_terms": [
+            "demand",
+            "elastic",
+            "inelastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch5-s5-3-p128-04",
+          "score": 11.708053730269826,
+          "matched_terms": [
+            "demand",
+            "inelastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "retained": true
+        },
+        {
+          "id": "ch5-s5-3-p131-02",
+          "score": 9.822649459314556,
+          "matched_terms": [
+            "demand",
+            "elastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "retained": true
+        }
+      ],
+      "reference_retrieval_hit": true
+    },
+    {
+      "id": "D05",
+      "query": "unemployment rate unemployed labor force calculation",
+      "expected_status": "insufficient",
+      "references": [],
+      "top_three": [
+        {
+          "id": "ch5-s5-1-p122-02",
+          "score": 6.719793251710462,
+          "matched_terms": [
+            "calculation",
+            "rate"
+          ],
+          "retained": false
+        },
+        {
+          "id": "ch5-s5-2-p124-02",
+          "score": 5.351360212799193,
+          "matched_terms": [
+            "calculation"
+          ],
+          "retained": false
+        },
+        {
+          "id": "ch5-s5-4-p134-01",
+          "score": 4.898255034561438,
+          "matched_terms": [
+            "labor"
+          ],
+          "retained": false
+        }
+      ],
+      "reference_retrieval_hit": null
+    },
+    {
+      "id": "D06",
+      "query": "GDP deflator nominal real gross domestic product price level",
+      "expected_status": "insufficient",
+      "references": [],
+      "top_three": [
+        {
+          "id": "ch3-s3-4-p079-03",
+          "score": 8.09010586151998,
+          "matched_terms": [
+            "level",
+            "price",
+            "product"
+          ],
+          "retained": false
+        },
+        {
+          "id": "ch3-s3-2-p063-01",
+          "score": 6.738830130405863,
+          "matched_terms": [
+            "price",
+            "product",
+            "real"
+          ],
+          "retained": false
+        },
+        {
+          "id": "ch3-s3-4-p078-05",
+          "score": 4.545265880185412,
+          "matched_terms": [
+            "level",
+            "price"
+          ],
+          "retained": false
+        }
+      ],
+      "reference_retrieval_hit": null
+    },
+    {
+      "id": "D07",
+      "query": "fractional reserve banking money creation reserves deposits loans",
+      "expected_status": "insufficient",
+      "references": [],
+      "top_three": [
+        {
+          "id": "ch5-s5-4-p134-03",
+          "score": 3.831138231467718,
+          "matched_terms": [
+            "money"
+          ],
+          "retained": false
+        },
+        {
+          "id": "ch3-s3-2-p069-02",
+          "score": 3.492560287613283,
+          "matched_terms": [
+            "money"
+          ],
+          "retained": false
+        },
+        {
+          "id": "ch3-s3-5-p082-04",
+          "score": 3.2890883941803706,
+          "matched_terms": [
+            "money"
+          ],
+          "retained": false
+        }
+      ],
+      "reference_retrieval_hit": null
+    }
+  ]
+}

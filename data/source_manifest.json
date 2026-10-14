@@ -1,0 +1,114 @@
+{
+  "attribution": "Principles of Economics 2e, OpenStax; senior contributing authors Steven A. Greenlaw and David Shapiro. ©2018 Rice University. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Download for free at https://openstax.org/details/books/principles-economics-2e. Excerpt: PDF line wrapping and whitespace normalized; diagrams, equations, tables, and navigation omitted. Portions of Demand and Supply derive from Steve Greenlaw and Lumen Learning, Why It Matters: Government in Action, CC BY 4.0 (https://courses.lumenlearning.com/waymakermacroxmasterfall2016/chapter/why-it-matters-government-action/).",
+  "authors": [
+    "Steven A. Greenlaw",
+    "David Shapiro"
+  ],
+  "authors_role": "senior contributing authors",
+  "book_url": "https://openstax.org/details/books/principles-economics-2e",
+  "book_url_note": "The original 2e details URL now redirects to 3e; the pinned PDF checksum identifies the actual 2e source.",
+  "copyright": "©2018 Rice University",
+  "copyright_page": {
+    "pdf_page": 4,
+    "printed_page": null
+  },
+  "downloaded_on": "2026-10-15",
+  "edition": "2e; pinned March 2018 revision PE2-2017-002-(03/18)-LC",
+  "exclusions": [
+    "chapter opening introductions before 3.1/5.1",
+    "learning objectives",
+    "end-of-chapter key terms, summaries, review questions and exercises",
+    "diagrams and their captions",
+    "tables",
+    "display equations and prose paragraphs with embedded equation glyphs",
+    "external-link panels",
+    "repeated page headers/footers",
+    "cover, logos and other trademark images"
+  ],
+  "extraction": {
+    "cross_page": "unfinished paragraphs are joined only across adjacent pages in the same section and text category",
+    "minimum_words": 16,
+    "modifications": [
+      "Normalized whitespace and visual line wrapping; no paraphrasing or AI rewriting.",
+      "Retained printed line-end hyphens while joining their next line without inserting a space.",
+      "Rendered subscript/superscript labels as ordinary text (e.g. D0).",
+      "Omitted non-prose layout blocks, equation-bearing paragraphs, navigation and short fragments."
+    ],
+    "paragraph_boundary": "visual line gap >=5 points; font/layout category changes; section/headings",
+    "stable_id": "chapter + section + one-based starting PDF page + paragraph ordinal",
+    "tool": "pdfplumber",
+    "version": "0.11.10",
+    "x_tolerance": 1,
+    "y_tolerance": 5
+  },
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "limitations": [
+    "This is a prose excerpt corpus, not a complete digital reproduction of the chapters.",
+    "Questions that require diagrams, numerical tables, calculations or omitted formulas may have insufficient evidence.",
+    "Historical examples and figures retain the source's 2018 context and are not current economic facts.",
+    "PDF and printed page numbering differ by 10 pages in these sections.",
+    "Line geometry is pinned to this source and extractor version; a different source file is refused."
+  ],
+  "original_publication_year": 2017,
+  "passage_count": 203,
+  "passages_by_section": {
+    "3.1": 21,
+    "3.2": 44,
+    "3.3": 39,
+    "3.4": 17,
+    "3.5": 19,
+    "5.1": 13,
+    "5.2": 5,
+    "5.3": 28,
+    "5.4": 17
+  },
+  "publisher": "OpenStax, Rice University",
+  "required_download_attribution": "Download for free at https://openstax.org/details/books/principles-economics-2e.",
+  "schema_version": 1,
+  "scope": [
+    {
+      "chapter": "3",
+      "pdf_pages": [
+        56,
+        84
+      ],
+      "printed_pages": [
+        46,
+        74
+      ],
+      "sections": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5"
+      ],
+      "title": "Demand and Supply"
+    },
+    {
+      "chapter": "5",
+      "pdf_pages": [
+        118,
+        136
+      ],
+      "printed_pages": [
+        108,
+        126
+      ],
+      "sections": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4"
+      ],
+      "title": "Elasticity"
+    }
+  ],
+  "source_pdf_isbn13": "978-1-947172-37-1",
+  "source_pdf_pages": 974,
+  "source_sha256": "4294836051532268aa0ffd3f2926db9b1b9e620fad415f73d3941265d063feca",
+  "source_url": "https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/Economics2e-LR.pdf",
+  "title": "Principles of Economics 2e",
+  "verified_on": "2026-10-15"
+}

@@ -1,0 +1,42 @@
+{
+  "mode": "real_browser_source_search",
+  "created_at_utc": "2026-10-14T17:16:29.102Z",
+  "input": "market equilibrium",
+  "chapter": "3",
+  "expected": "Textbook passages with chapter, section, PDF page and attribution; zero model requests",
+  "actual": "3 ranked passages; first passage ch3-s3-1-p061-03; PDF61 / printed51",
+  "live_ai_tested": false,
+  "independent_human_first_use": false,
+  "page_errors": [],
+  "events": [
+    {
+      "seconds": 1.082,
+      "action": "App loaded with no API key"
+    },
+    {
+      "seconds": 3.667,
+      "action": "Selected demand and supply"
+    },
+    {
+      "seconds": 6.002,
+      "action": "Entered real English search input"
+    },
+    {
+      "seconds": 7.621,
+      "action": "BM25 results displayed"
+    },
+    {
+      "seconds": 9.453,
+      "action": "Expanded source visible with source page and attribution"
+    },
+    {
+      "seconds": 23.516,
+      "action": "Source search evidence captured; live Q&A not demonstrated"
+    }
+  ],
+  "raw_video_relative": "tmp\\browser-video\\page@fef081f119a07c4ff770b756cf3ec776.webm",
+  "recorded_video": "evidence/source_search_demo.mp4",
+  "duration_seconds": 27.2,
+  "captions": "Burned-in English captions; explicitly identifies Source search without live AI.",
+  "encoding": "H.264 MP4, 1440x1000, no audio"
+}

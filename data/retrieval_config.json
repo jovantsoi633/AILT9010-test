@@ -1,0 +1,9 @@
+{
+  "tau": 8.090105861519982,
+  "k1": 1.5,
+  "b": 0.75,
+  "calibration_status": "provisional_annotated",
+  "calibration_evidence": "evidence/calibration.json",
+  "corpus_sha256": "b4e7c8ea8137a7dc75287a9cfc1fcfcbb84ac26228a45a6b022d7dcec6fcea1f",
+  "development_sha256": "619b4e6becd752e3643b55ff98439b2e0956983d98c78814c6eb8775512d71ff"
+}

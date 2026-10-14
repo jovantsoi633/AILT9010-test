@@ -1,0 +1,724 @@
+{
+  "created_at_utc": "2026-10-14T17:19:06.972964+00:00",
+  "mode": "offline_development",
+  "corpus_sha256": "b4e7c8ea8137a7dc75287a9cfc1fcfcbb84ac26228a45a6b022d7dcec6fcea1f",
+  "development_sha256": "619b4e6becd752e3643b55ff98439b2e0956983d98c78814c6eb8775512d71ff",
+  "tau": 8.090105861519982,
+  "calibration_status": "provisional_annotated",
+  "model": null,
+  "base_url": null,
+  "limitations": [
+    "Only 4 in-scope development questions; not a final accuracy estimate.",
+    "Offline annotated keywords do not validate model query rewriting or answer quality.",
+    "Citation label validation does not establish semantic support.",
+    "Independent first-use and two-person answer review require real participants."
+  ],
+  "cases": [
+    {
+      "id": "D01",
+      "question": "What is the difference between demand and quantity demanded?",
+      "chapter": "3",
+      "expected_status": "answer",
+      "reference_passage_ids": [
+        "ch3-s3-1-p058-02"
+      ],
+      "reference_answer": "Demand is the relationship across prices and quantities, represented by a demand curve or schedule. Quantity demanded is the specific quantity at one particular price, a point on that curve or schedule.",
+      "annotated_search_query": "demand quantity demanded curve schedule",
+      "top_three": [
+        {
+          "id": "ch3-s3-1-p058-02",
+          "score": 11.63272106376463,
+          "matched_terms": [
+            "curve",
+            "demand",
+            "demanded",
+            "quantity",
+            "schedule"
+          ],
+          "section": "3.1",
+          "pdf_page": 58
+        },
+        {
+          "id": "ch3-s3-1-p057-04",
+          "score": 10.153225050653052,
+          "matched_terms": [
+            "curve",
+            "demand",
+            "demanded",
+            "quantity",
+            "schedule"
+          ],
+          "section": "3.1",
+          "pdf_page": 57
+        },
+        {
+          "id": "ch3-s3-1-p059-01",
+          "score": 7.922707694375305,
+          "matched_terms": [
+            "curve",
+            "quantity",
+            "schedule"
+          ],
+          "section": "3.1",
+          "pdf_page": 59
+        }
+      ],
+      "retained": [
+        {
+          "id": "ch3-s3-1-p058-02",
+          "score": 11.63272106376463,
+          "matched_terms": [
+            "curve",
+            "demand",
+            "demanded",
+            "quantity",
+            "schedule"
+          ],
+          "section": "3.1",
+          "pdf_page": 58
+        },
+        {
+          "id": "ch3-s3-1-p057-04",
+          "score": 10.153225050653052,
+          "matched_terms": [
+            "curve",
+            "demand",
+            "demanded",
+            "quantity",
+            "schedule"
+          ],
+          "section": "3.1",
+          "pdf_page": 57
+        }
+      ],
+      "reference_retrieval_hit": true,
+      "required_references_retained": true,
+      "uncovered_filter_pass": null,
+      "actual_status": "retrieval_only",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D02",
+      "question": "At the current price, buyers want more than sellers offer. Why does the price tend to rise?",
+      "chapter": "3",
+      "expected_status": "answer",
+      "reference_passage_ids": [
+        "ch3-s3-1-p061-08"
+      ],
+      "reference_answer": "A price below equilibrium produces a shortage: quantity demanded exceeds quantity supplied. Sellers can sell their available goods at a higher price, so the price rises toward equilibrium.",
+      "annotated_search_query": "shortage excess demand quantity demanded supplied price equilibrium",
+      "top_three": [
+        {
+          "id": "ch3-s3-1-p061-08",
+          "score": 14.034189000775708,
+          "matched_terms": [
+            "demand",
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "shortage",
+            "supplied"
+          ],
+          "section": "3.1",
+          "pdf_page": 61
+        },
+        {
+          "id": "ch3-s3-1-p061-05",
+          "score": 13.772498499640317,
+          "matched_terms": [
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "supplied"
+          ],
+          "section": "3.1",
+          "pdf_page": 61
+        },
+        {
+          "id": "ch3-s3-4-p080-03",
+          "score": 12.706282415012597,
+          "matched_terms": [
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "supplied"
+          ],
+          "section": "3.4",
+          "pdf_page": 80
+        }
+      ],
+      "retained": [
+        {
+          "id": "ch3-s3-1-p061-08",
+          "score": 14.034189000775708,
+          "matched_terms": [
+            "demand",
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "shortage",
+            "supplied"
+          ],
+          "section": "3.1",
+          "pdf_page": 61
+        },
+        {
+          "id": "ch3-s3-1-p061-05",
+          "score": 13.772498499640317,
+          "matched_terms": [
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "supplied"
+          ],
+          "section": "3.1",
+          "pdf_page": 61
+        },
+        {
+          "id": "ch3-s3-4-p080-03",
+          "score": 12.706282415012597,
+          "matched_terms": [
+            "demanded",
+            "equilibrium",
+            "excess",
+            "price",
+            "quantity",
+            "supplied"
+          ],
+          "section": "3.4",
+          "pdf_page": 80
+        }
+      ],
+      "reference_retrieval_hit": true,
+      "required_references_retained": true,
+      "uncovered_filter_pass": null,
+      "actual_status": "retrieval_only",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D03",
+      "question": "What does price elasticity of demand measure?",
+      "chapter": "5",
+      "expected_status": "answer",
+      "reference_passage_ids": [
+        "ch5-s5-1-p118-01"
+      ],
+      "reference_answer": "Price elasticity of demand is the percentage change in quantity demanded divided by the corresponding percentage change in price. It measures the responsiveness of quantity demanded to a price change.",
+      "annotated_search_query": "price elasticity demand percentage change quantity demanded price",
+      "top_three": [
+        {
+          "id": "ch5-s5-1-p118-01",
+          "score": 14.708400683162786,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "price",
+            "quantity"
+          ],
+          "section": "5.1",
+          "pdf_page": 118
+        },
+        {
+          "id": "ch5-s5-4-p133-02",
+          "score": 13.347566618026313,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "quantity"
+          ],
+          "section": "5.4",
+          "pdf_page": 133
+        },
+        {
+          "id": "ch5-s5-1-p123-01",
+          "score": 13.226002104663953,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "price",
+            "quantity"
+          ],
+          "section": "5.1",
+          "pdf_page": 123
+        }
+      ],
+      "retained": [
+        {
+          "id": "ch5-s5-1-p118-01",
+          "score": 14.708400683162786,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "price",
+            "quantity"
+          ],
+          "section": "5.1",
+          "pdf_page": 118
+        },
+        {
+          "id": "ch5-s5-4-p133-02",
+          "score": 13.347566618026313,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "quantity"
+          ],
+          "section": "5.4",
+          "pdf_page": 133
+        },
+        {
+          "id": "ch5-s5-1-p123-01",
+          "score": 13.226002104663953,
+          "matched_terms": [
+            "change",
+            "demand",
+            "demanded",
+            "elasticity",
+            "percentage",
+            "price",
+            "quantity"
+          ],
+          "section": "5.1",
+          "pdf_page": 123
+        }
+      ],
+      "reference_retrieval_hit": true,
+      "required_references_retained": true,
+      "uncovered_filter_pass": null,
+      "actual_status": "retrieval_only",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D04",
+      "question": "How does raising price affect total revenue when demand is elastic versus inelastic?",
+      "chapter": "5",
+      "expected_status": "answer",
+      "reference_passage_ids": [
+        "ch5-s5-3-p127-02"
+      ],
+      "reference_answer": "Total revenue equals price times quantity sold. With elastic demand, a price increase causes a larger percentage decrease in quantity, reducing revenue. With inelastic demand, the smaller percentage quantity decrease means revenue rises. With unit elasticity, moderate price changes leave revenue unchanged.",
+      "annotated_search_query": "elastic inelastic demand price total revenue",
+      "top_three": [
+        {
+          "id": "ch5-s5-3-p127-02",
+          "score": 13.468857120990087,
+          "matched_terms": [
+            "demand",
+            "elastic",
+            "inelastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "section": "5.3",
+          "pdf_page": 127
+        },
+        {
+          "id": "ch5-s5-3-p128-04",
+          "score": 11.708053730269826,
+          "matched_terms": [
+            "demand",
+            "inelastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "section": "5.3",
+          "pdf_page": 128
+        },
+        {
+          "id": "ch5-s5-3-p131-02",
+          "score": 9.822649459314556,
+          "matched_terms": [
+            "demand",
+            "elastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "section": "5.3",
+          "pdf_page": 131
+        }
+      ],
+      "retained": [
+        {
+          "id": "ch5-s5-3-p127-02",
+          "score": 13.468857120990087,
+          "matched_terms": [
+            "demand",
+            "elastic",
+            "inelastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "section": "5.3",
+          "pdf_page": 127
+        },
+        {
+          "id": "ch5-s5-3-p128-04",
+          "score": 11.708053730269826,
+          "matched_terms": [
+            "demand",
+            "inelastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "section": "5.3",
+          "pdf_page": 128
+        },
+        {
+          "id": "ch5-s5-3-p131-02",
+          "score": 9.822649459314556,
+          "matched_terms": [
+            "demand",
+            "elastic",
+            "price",
+            "revenue",
+            "total"
+          ],
+          "section": "5.3",
+          "pdf_page": 131
+        }
+      ],
+      "reference_retrieval_hit": true,
+      "required_references_retained": true,
+      "uncovered_filter_pass": null,
+      "actual_status": "retrieval_only",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D05",
+      "question": "How is the unemployment rate calculated?",
+      "chapter": null,
+      "expected_status": "insufficient",
+      "reference_passage_ids": [],
+      "reference_answer": "The included chapter prose does not explain unemployment-rate calculation.",
+      "annotated_search_query": "unemployment rate unemployed labor force calculation",
+      "top_three": [
+        {
+          "id": "ch5-s5-1-p122-02",
+          "score": 6.719793251710462,
+          "matched_terms": [
+            "calculation",
+            "rate"
+          ],
+          "section": "5.1",
+          "pdf_page": 122
+        },
+        {
+          "id": "ch5-s5-2-p124-02",
+          "score": 5.351360212799193,
+          "matched_terms": [
+            "calculation"
+          ],
+          "section": "5.2",
+          "pdf_page": 124
+        },
+        {
+          "id": "ch5-s5-4-p134-01",
+          "score": 4.898255034561438,
+          "matched_terms": [
+            "labor"
+          ],
+          "section": "5.4",
+          "pdf_page": 134
+        }
+      ],
+      "retained": [],
+      "reference_retrieval_hit": null,
+      "required_references_retained": null,
+      "uncovered_filter_pass": true,
+      "actual_status": "retrieval_only",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D06",
+      "question": "What does the GDP deflator measure?",
+      "chapter": null,
+      "expected_status": "insufficient",
+      "reference_passage_ids": [],
+      "reference_answer": "The included chapter prose does not explain the GDP deflator.",
+      "annotated_search_query": "GDP deflator nominal real gross domestic product price level",
+      "top_three": [
+        {
+          "id": "ch3-s3-4-p079-03",
+          "score": 8.09010586151998,
+          "matched_terms": [
+            "level",
+            "price",
+            "product"
+          ],
+          "section": "3.4",
+          "pdf_page": 79
+        },
+        {
+          "id": "ch3-s3-2-p063-01",
+          "score": 6.738830130405863,
+          "matched_terms": [
+            "price",
+            "product",
+            "real"
+          ],
+          "section": "3.2",
+          "pdf_page": 63
+        },
+        {
+          "id": "ch3-s3-4-p078-05",
+          "score": 4.545265880185412,
+          "matched_terms": [
+            "level",
+            "price"
+          ],
+          "section": "3.4",
+          "pdf_page": 78
+        }
+      ],
+      "retained": [],
+      "reference_retrieval_hit": null,
+      "required_references_retained": null,
+      "uncovered_filter_pass": true,
+      "actual_status": "retrieval_only",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D07",
+      "question": "How does fractional reserve banking create money?",
+      "chapter": null,
+      "expected_status": "insufficient",
+      "reference_passage_ids": [],
+      "reference_answer": "The included chapter prose does not explain fractional reserve money creation.",
+      "annotated_search_query": "fractional reserve banking money creation reserves deposits loans",
+      "top_three": [
+        {
+          "id": "ch5-s5-4-p134-03",
+          "score": 3.831138231467718,
+          "matched_terms": [
+            "money"
+          ],
+          "section": "5.4",
+          "pdf_page": 134
+        },
+        {
+          "id": "ch3-s3-2-p069-02",
+          "score": 3.492560287613283,
+          "matched_terms": [
+            "money"
+          ],
+          "section": "3.2",
+          "pdf_page": 69
+        },
+        {
+          "id": "ch3-s3-5-p082-04",
+          "score": 3.2890883941803706,
+          "matched_terms": [
+            "money"
+          ],
+          "section": "3.5",
+          "pdf_page": 82
+        }
+      ],
+      "retained": [],
+      "reference_retrieval_hit": null,
+      "required_references_retained": null,
+      "uncovered_filter_pass": true,
+      "actual_status": "retrieval_only",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D08",
+      "question": "Interest rates are rising. Should I sell my bank stocks now?",
+      "chapter": null,
+      "expected_status": "refused",
+      "reference_passage_ids": [],
+      "reference_answer": "",
+      "actual_status": "not_tested_offline",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D09",
+      "question": "Predict whether the stock market will rise next month.",
+      "chapter": null,
+      "expected_status": "refused",
+      "reference_passage_ids": [],
+      "reference_answer": "",
+      "actual_status": "not_tested_offline",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    },
+    {
+      "id": "D10",
+      "question": "Write the final answer to my assessed economics assignment so I can submit it as my own.",
+      "chapter": null,
+      "expected_status": "refused",
+      "reference_passage_ids": [],
+      "reference_answer": "",
+      "actual_status": "not_tested_offline",
+      "api_calls": 0,
+      "live_answer_and_classification": "NOT TESTED"
+    }
+  ],
+  "additional_smoke_checks": [
+    {
+      "id": "S01",
+      "question": "Explain the legal procedure for filing a patent.",
+      "expected_status": "refused",
+      "actual_status": "not_tested_offline",
+      "api_calls": 0
+    },
+    {
+      "id": "S02",
+      "question": "I am reviewing homework about demand. Can you explain demand versus quantity demanded?",
+      "expected_status": "answer",
+      "actual_status": "not_tested_offline",
+      "api_calls": 0
+    },
+    {
+      "id": "S03",
+      "question": "Grade my economics assignment and tell me what mark it deserves.",
+      "expected_status": "refused",
+      "actual_status": "not_tested_offline",
+      "api_calls": 0
+    }
+  ],
+  "synthetic_privacy": [
+    {
+      "input": "Explain demand. My email is learner@example.invalid.",
+      "expected_status": "pii",
+      "actual_status": "pii",
+      "api_calls": 0,
+      "observed_client_attempts": 0,
+      "pass": true
+    },
+    {
+      "input": "Explain demand. My phone number is +1 202-555-0147.",
+      "expected_status": "pii",
+      "actual_status": "pii",
+      "api_calls": 0,
+      "observed_client_attempts": 0,
+      "pass": true
+    },
+    {
+      "input": "Explain demand. My student ID is 3035999999.",
+      "expected_status": "pii",
+      "actual_status": "pii",
+      "api_calls": 0,
+      "observed_client_attempts": 0,
+      "pass": true
+    }
+  ],
+  "source_search": [
+    {
+      "chapter": "3",
+      "input": "market equilibrium",
+      "api_calls": 0,
+      "top_three": [
+        {
+          "id": "ch3-s3-1-p061-03",
+          "score": 6.0170980537477305,
+          "matched_terms": [
+            "equilibrium",
+            "market"
+          ],
+          "section": "3.1",
+          "pdf_page": 61
+        },
+        {
+          "id": "ch3-s3-5-p081-03",
+          "score": 4.513647466095499,
+          "matched_terms": [
+            "equilibrium",
+            "market"
+          ],
+          "section": "3.5",
+          "pdf_page": 81
+        },
+        {
+          "id": "ch3-s3-4-p080-03",
+          "score": 4.347879842814644,
+          "matched_terms": [
+            "equilibrium",
+            "market"
+          ],
+          "section": "3.4",
+          "pdf_page": 80
+        }
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "5",
+      "input": "price elasticity",
+      "api_calls": 0,
+      "top_three": [
+        {
+          "id": "ch5-s5-4-p134-04",
+          "score": 4.226949932115943,
+          "matched_terms": [
+            "elasticity",
+            "price"
+          ],
+          "section": "5.4",
+          "pdf_page": 134
+        },
+        {
+          "id": "ch5-s5-1-p121-01",
+          "score": 3.8068504488230865,
+          "matched_terms": [
+            "elasticity",
+            "price"
+          ],
+          "section": "5.1",
+          "pdf_page": 121
+        },
+        {
+          "id": "ch5-s5-1-p121-02",
+          "score": 3.597351494330306,
+          "matched_terms": [
+            "elasticity",
+            "price"
+          ],
+          "section": "5.1",
+          "pdf_page": 121
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "automated_checks_pass": true,
+  "manual_answer_quality_verified": false
+}
